@@ -18,8 +18,6 @@ import jakarta.validation.Valid;
 @Controller
 @SessionAttributes("name")
 public class TodoControllerJpa {
-	//list-todos
-	private TodoService todoService;
 	private TodoRepository todoRepository;
 	
 	public TodoControllerJpa(TodoRepository todoRepository) {
